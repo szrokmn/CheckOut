@@ -1,0 +1,142 @@
+*{
+    margin:0;  
+    padding:0;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+body{
+  
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+.container{   
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;    
+}
+form{
+    width: 65%;
+}
+.label{
+    display: block;
+    margin:0.5rem 0;
+}
+i{
+   position:absolute; 
+   padding:9px;
+   font-size: 1.2rem;   
+}
+.input{    
+    width: 70%;
+    padding:9px 10px 9px 35px;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+#country{
+    padding:10px 10px 10px 35px;
+    border-radius: 6px;
+}
+.countryPost{
+    display: flex;
+    gap:1rem
+}
+h2{
+    padding-top: 2rem;
+}
+
+.button1{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    display: block;
+    position: relative;
+    left: 60%;
+    background-color: darkorange;
+}
+.button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.main{
+    background-color: lightgray;
+    width: 35%;
+    height: 100%;
+    border-radius: 1rem;   
+}
+.img1{
+    display:flex;
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 1rem;
+}
+.ust{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;    
+    flex-wrap: wrap;
+}
+.degistir{
+    
+    display:flex;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: fit-content;
+    padding: 0.6rem;
+    margin:1.5rem auto;
+}
+button{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.degistir  p{
+    padding:0.4rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.subinfo{
+    margin: 1.5rem 0.1rem;
+}
+.subinfo p{    
+    margin:1rem 0.1rem;
+    color: orange;
+    font-size: 1.2rem;
+}
+.span1{    
+    float:right;
+}
+span{
+    color: black;
+    text-decoration: line-through;
+    margin-left: 0.5rem;
+}
+.bottom{
+    border-top:1px solid black;
+    font-size: 1.2rem;
+    padding: 0.5rem;    
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
